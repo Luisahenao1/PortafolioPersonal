@@ -1,30 +1,48 @@
-import './Home.css'
-export function Home(){
+import "./Home.css";
+export function Home() {
+  return (
+    <>
+      <div className="fondoTres">
+        <section className="container">
+          <div className="row">
+            <div className="col-12 col-md-6 align-self-center">
+              <img
+                src="../../../../src/assets/img/mosaico.png"
+                alt=""
+                className="img-fluid"
+              />
+            </div>
+            <div className="col-12 col-md-6">
+              <h1>LUISA FERNANDA HENAO VARELAS</h1>
+              <img
+                src="../../../../src/assets/img/luisa.jpeg"
+                alt=""
+                className="img-fluid rounded shadow foto"
+              />
+              <hr />
+              <p>
+                Soy Técnica en Desarrollo de Software con una profunda pasión
+                por la tecnología y la programación. Mi entusiasmo por lo que
+                hago es mi principal motor, lo que me impulsa a aprender
+                constantemente y a mejorar mis habilidades. Me encanta explorar
+                nuevas herramientas, lenguajes de programación y metodologías
+                que me permitan crecer tanto profesionalmente como
+                personalmente. Soy perseverante y siempre busco dar lo mejor de
+                mí en cada proyecto, enfrentando desafíos con una actitud
+                positiva y enfocada. Mi objetivo es crear soluciones innovadoras
+                y de alta calidad que tengan un impacto real. La creatividad y
+                el trabajo en equipo son valores que me definen, y me esfuerzo
+                por aportar ideas frescas y eficientes a cada proyecto en el que
+                participo.{" "}
+              </p>
+            </div>
+          </div>
 
-    return(
-        <>
-
-            <section className="container">
-                <div className="row justify-content-center">
-                    <div className="col-5">
-                        <h1>MARIA CAMILA CASTAÑEDA</h1>
-                        <img src="../../../../src/assets/img/profe.jpeg" alt="" className="img-fluid rounded shadow foto"/>
-                        <hr />
-                        <p>
-                            Soy un apasionado de la innovación, la programación y la creación de soluciones centradas en las personas.
-                            Trabajo en el cruce entre el design thinking, la investigación de mercados y el desarrollo ágil de servicios, siempre con un enfoque práctico y basado en datos.
-
-                            Me especializo en construir perfiles de usuario y arquetipos utilizando metodologías como Jobs to be Done, y desarrollo aplicaciones y servicios digitales principalmente con Python (FastAPI) y análisis de datos con Pandas.
-                            Disfruto transformar insights en productos funcionales, validando ideas rápido y aprendiendo continuamente.
-
-                            Más allá del trabajo, la programación es también una de mis pasiones personales.
-                            En mi tiempo libre, encuentro inspiración y energía en la música rock, siempre acompañado de guitarras distorsionadas y grandes riffs que impulsan mi creatividad.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-        </>
-    )
-
+          <div className="row justify-content-center">
+            
+          </div>
+        </section>
+      </div>
+    </>
+  );
 }

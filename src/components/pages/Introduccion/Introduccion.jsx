@@ -7,15 +7,14 @@ export function Introduccion(){
                 <div className="row">
 
                     <div className="col-12 col-md-7">
-                        <img src="../../../../src/assets/img/caricatura.png" alt="" className="img-fluid rounded"/>
+                        <img src="../../../../src/assets/img/caricatura 2.png" alt="" className="img-fluid rounded"/>
                     </div>
 
                     <div className="col-12 col-md-5">
-                        <h1 className="display-1">Juan Jose Gallego Mesa &copy;</h1>
+                        <h1 className="display-1">Luisa Fernanda Henao Varelas &copy;</h1>
                         <p>
-                            I am a software development student based in Medellín, passionate about building digital solutions that solve real-world problems. Throughout my academic journey, I have gained solid foundations in programming logic and the design of relational databases using SQL. I have also developed skills  in front-end technologies such as HTML, CSS, JavaScript, and React, enabling me to build responsive and user-friendly interfaces.
-
-                            Additionally, I have experience working with Java for backend development and have been trained in agile methodologies, which I apply to ensure collaborative and iterative software delivery. I am committed to continuous learning and enjoy working in team environments that encourage innovation and the application of best practices in software development.
+                        I am a passionate Software Development Technician with expertise in languages such as JavaScript, Java, Python, HTML, CSS, and React. I am deeply committed to what I do, always striving to deliver the best results in every project I take on. My strengths lie in my agility, strategic thinking, and resourcefulness, which allow me to overcome challenges and find effective solutions quickly.
+                        I approach each task with dedication and love, focusing on delivering high-quality, innovative results. I believe in continuous learning and am always eager to expand my skill set. My goal is to create meaningful and impactful solutions, always giving my best effort and attention to detail.
                         </p>
 
                         <div className="row">

@@ -19,27 +19,12 @@ export function Historia(){
             </section>
             <section className='container my-5'>
                 <div className='row'>
-                    <div className='col-12 col-md-4'>
-                <img src="../../../../src/assets/img/bancolombia.png" alt="" className='img-fluid' />
+                    <div className='col-12 col-md-4 shadow'>
+                <img src="../../../../src/assets/img/restaurante mexicano.avif" alt="" className='img-fluid' />
                     </div>
-                    <div className='col-12 col-md-8'>
-                        <h2>BANCOLOMBIA</h2>
-                        <p>La actividad consistió en desarrollar una página web simulando una plataforma de banca en línea, inspirada en Bancolombia, utilizando JavaScript. Los estudiantes trabajaron en la estructura HTML y el diseño con CSS, para crear una interfaz clara y profesional, similar a la de un sitio bancario real. Con JavaScript, implementaron funcionalidades interactivas, como el inicio de sesión, donde los usuarios podían ingresar sus credenciales de forma simulada y acceder a su cuenta. También crearon una sección de saldo, movimientos recientes y transferencias, que mostraba información dinámica extraída de arrays y objetos. Además, añadieron un sistema de validación de formularios para asegurar que los datos ingresados fueran correctos. Los usuarios podían interactuar con la página, realizar transacciones simuladas y ver confirmaciones en tiempo real. La actividad permitió practicar conceptos clave de programación como eventos del DOM, funciones, validación y manejo de datos.</p>
-                    </div>
-
-                </div>
-            
-
-            </section>
-
-            <section className='container my-5'>
-                <div className='row'>
-                    <div className='col-12 col-md-8'>
-                    <h2>KAROLG</h2>
-                    <p>La actividad consistió en crear una página web interactiva usando JavaScript para presentar información sobre la cantante Karol G. Los estudiantes utilizaron HTML para estructurar el contenido y CSS para darle estilo visual. Con JavaScript, agregaron interactividad, como botones que al hacer clic mostraban datos sobre su biografía, discografía y logros. También se incluyó una galería de imágenes que cambiaban dinámicamente y una lista de reproducción con fragmentos de sus canciones más populares usando el elemento. Además, se programó un botón que mostraba frases célebres de la artista mediante funciones y arrays. La actividad buscaba desarrollar habilidades de programación básica y aplicar eventos DOM en un contexto cultural y musical interesante para los alumnos. Al finalizar, los participantes presentaron su trabajo y compartieron qué aprendieron sobre Karol G y sobre cómo usar JavaScript para crear experiencias web dinámicas y atractivas.</p>
-                    </div>
-                    <div className='col-12 col-md-4'>
-                        <img src="../../../../src/assets/img/karolg.jpg" alt="" className='img-fluid' />
+                    <div className='col-12 col-md-8 shadow'>
+                        <h2>RESTAURANTE DE COMIDA MEXICANA</h2>
+                        <p>Este proyecto consistio en el diseño y desarrollo de una página web sobre comida mexicana utilizando HTML5, CSS3 y JavaScript. El sitio está estructurado en cuatro secciones principales: Inicio, donde se presenta la identidad del restaurante y una bienvenida visualmente atractiva; Menú, con platillos tradicionales mostrados mediante tarjetas interactivas; Contacto, que incluye un formulario funcional creado con HTML y validado con JavaScript; y Ubicación, donde se integra un mapa mediante la API de Google Maps para mostrar la dirección exacta. El diseño es responsivo, adaptándose a diferentes tamaños de pantalla gracias al uso de flexbox y media queries en CSS. Además, se utilizaron principios de experiencia de usuario (UX) para facilitar la navegación. El objetivo es crear una plataforma que promueva la cultura gastronómica mexicana, mejore la visibilidad del negocio y ofrezca una experiencia interactiva y moderna a los usuarios.</p>
                     </div>
 
                 </div>
@@ -49,12 +34,27 @@ export function Historia(){
 
             <section className='container my-5'>
                 <div className='row'>
-                    <div className='col-12 col-md-4'>
-                <img src="../../../../src/assets/img/ropa.jpg" alt="" className='img-fluid' />
+                    <div className='col-12 col-md-8 shadow'>
+                    <h2>ENTIDAD-RELACIÓN</h2>
+                    <p>Este proyecto consistió en el diseño de un modelo de base de datos utilizando el enfoque de entidades y atributos, como parte del aprendizaje de modelado de datos. El objetivo fue representar de forma estructurada la información de un sistema específico (por ejemplo, una tienda, biblioteca o escuela). Se identificaron las entidades principales, como Cliente, Producto y Venta, y se definieron sus atributos, como nombre, ID, fecha, precio, entre otros. Se establecieron también las relaciones entre las entidades y se clasificaron los atributos como clave primaria, clave foránea o atributos simples y compuestos. El modelo se representó mediante un diagrama entidad-relación (ER), utilizando notación estándar. Este ejercicio permitió comprender la importancia de estructurar correctamente la información antes de implementarla en una base de datos relacional, facilitando la organización, integridad y acceso eficiente a los datos. El proyecto se desarrolló con herramientas como Draw.io para la diagramación.</p>
                     </div>
-                    <div className='col-12 col-md-8'>
-                        <h2>ROPA</h2>
-                        <p>La actividad consistió en desarrollar una página web de una tienda de ropa utilizando JavaScript para agregar interactividad. Los estudiantes comenzaron creando la estructura básica con HTML y aplicaron estilos modernos con CSS, simulando un catálogo online. Con JavaScript, programaron funciones para mostrar y ocultar secciones como “Ofertas”, “Nuevas Colecciones” y “Recomendados”. También implementaron un carrito de compras básico, donde los usuarios podían agregar prendas haciendo clic en botones y ver el total actualizado en tiempo real. Para mejorar la experiencia del usuario, usaron eventos del DOM para responder a acciones como seleccionar tallas o colores. Además, incorporaron validación de formularios para simular un proceso de compra. Esta actividad les permitió poner en práctica conceptos fundamentales de programación como funciones, arrays, objetos y manipulación del DOM, todo dentro de un proyecto realista y creativo. Al final, cada grupo presentó su tienda y explicó las funcionalidades implementadas con JavaScript.</p>
+                    <div className='col-12 col-md-4 shadow'>
+                        <img src="../../../../src/assets/img/entidad relacion.png" alt="" className='img-fluid' />
+                    </div>
+
+                </div>
+            
+
+            </section>
+
+            <section className='container my-5'>
+                <div className='row'>
+                    <div className='col-12 col-md-4 shadow'>
+                <img src="../../../../src/assets/img/tablas html.jpg" alt="" className='img-fluid' />
+                    </div>
+                    <div className='col-12 col-md-8 shadow'>
+                        <h2>TABLAS HTML</h2>
+                        <p>Este proyecto consistió en la creación de una estructura de base de datos representada mediante tablas en HTML, aplicando los conceptos de entidades y atributos. Se eligió un sistema sencillo como una tienda, biblioteca o sistema escolar para identificar las entidades principales, como Usuarios, Productos y Pedidos, y se definieron sus atributos en columnas, como nombre, ID, correo, precio, cantidad, entre otros. Utilizando la etiqueta table, se construyeron tablas con sus respectivas filas tr y celdas td y th para organizar visualmente la información. El proyecto incluyó el uso de HTML5 para la estructura y CSS básico para el diseño visual de las tablas, mejorando la legibilidad y presentación. Este trabajo permitió comprender cómo representar datos estructurados en una página web y reforzó el vínculo entre el modelado lógico de datos entidades y atributos y su representación visual en entornos web. Fue una base útil para proyectos más complejos de desarrollo web.</p>
                     </div>
 
                 </div>
@@ -65,12 +65,12 @@ export function Historia(){
 
             <section className='container my-5'>
                 <div className='row'>
-                    <div className='col-12 col-md-8'>
-                    <h2>GYM</h2>
-                    <p>La actividad consistió en crear una página web interactiva para una cadena de gimnasios llamada Body Tech, utilizando JavaScript. Los estudiantes trabajaron con HTML para estructurar la página y CSS para darle un diseño atractivo, siguiendo la identidad visual de la marca. A través de JavaScript, implementaron funcionalidades interactivas, como la opción de reservar clases en línea, donde los usuarios podían elegir fecha, hora y tipo de clase (yoga, pilates, entrenamiento funcional, etc.). También añadieron un sistema para mostrar promociones especiales y descuentos para miembros, usando arrays y objetos para gestionar la información. Los usuarios podían ver detalles sobre planes de membresía y horarios de las sucursales, todo mediante eventos DOM que respondían a las acciones del usuario. Esta actividad permitió aplicar conceptos clave de programación como funciones, arrays, objetos y manipulación del DOM, mientras se simulaba un entorno comercial real de un gimnasio.</p>
+                    <div className='col-12 col-md-8 shadow'>
+                    <h2>PRACTICAS FLEXBOX</h2>
+                    <p>Este proyecto consistió en una serie de prácticas enfocadas en el uso de Flexbox, una herramienta de CSS que permite crear diseños web flexibles y responsivos. El objetivo principal fue comprender cómo organizar elementos en una página utilizando propiedades como display: flex, justify-content, align-items, flex-direction y flex-wrap. Durante el desarrollo se crearon múltiples ejercicios, incluyendo la construcción de barras de navegación, tarjetas alineadas, galerías de imágenes y diseños de secciones con distribución adaptable. Se trabajó con diferentes combinaciones de propiedades para controlar el espaciado, alineación y comportamiento de los elementos en distintos tamaños de pantalla. Estas prácticas fueron fundamentales para mejorar la comprensión del modelo de caja flexible y para preparar el camino hacia el diseño web moderno sin depender de técnicas tradicionales como el uso excesivo de float o position. El proyecto se realizó utilizando HTML5 y CSS3, aplicando Flexbox como base principal del diseño visual.</p>
                     </div>
-                    <div className='col-12 col-md-4'>
-                        <img src="../../../../src/assets/img/bodytech.jpg" alt="" className='img-fluid' />
+                    <div className='col-12 col-md-4 shadow'>
+                        <img src="../../../../src/assets/img/FLEXBOX.png" alt="" className='img-fluid' />
                     </div>
 
                 </div>
@@ -79,19 +79,34 @@ export function Historia(){
 
             <section className='container my-5'>
                 <div className='row'>
-                    <div className='col-12 col-md-4'>
+                    <div className='col-12 col-md-4 shadow'>
                 <img src="../../../../src/assets/img/Netflix.jpeg" alt="" className='img-fluid' />
                     </div>
-                    <div className='col-12 col-md-8'>
+                    <div className='col-12 col-md-8 shadow'>
                         <h2>NETFLIX</h2>
-                        <p>La actividad consistió en desarrollar una página web que replicaba las funcionalidades básicas de Netflix, utilizando JavaScript. Los estudiantes comenzaron con la estructura HTML y el diseño CSS, asegurándose de que la interfaz fuera similar a la de la famosa plataforma de streaming. En JavaScript, implementaron una función para mostrar una lista de películas y series, que se cargaban dinámicamente desde un array de objetos, cada uno representando un título con información como nombre, descripción y URL de la imagen. Además, crearon un sistema de filtros que permitía a los usuarios buscar por género, año o popularidad. La funcionalidad principal incluyó un reproductor de video simulado, donde los usuarios podían hacer clic en un título para ver más detalles. La actividad permitió a los participantes practicar el uso de eventos del DOM, arrays y funciones, creando una experiencia de usuario interactiva y visualmente atractiva, inspirada en un servicio de streaming real.</p>
+                        <p>Este proyecto consistió en el desarrollo de una página web inspirada en la plataforma Netflix, utilizando HTML, CSS y JavaScript. El sitio incluye una interfaz de inicio de sesión e inscripción, donde los usuarios pueden registrarse mediante un formulario validado. Una vez ingresado, se accede a la sección principal que contiene una cartelera dinámica con múltiples películas organizadas por categorías. Cada película se muestra en tarjetas con imagen, título y breve descripción. También se implementó un menú de navegación fijo que permite al usuario desplazarse fácilmente entre secciones como Inicio, Tendencias, Mi lista, y más. El diseño es responsivo, adaptándose a diferentes tamaños de pantalla, y se cuidaron los aspectos visuales para simular la experiencia de una plataforma de streaming. Este proyecto permitió aplicar conocimientos de diseño web, interactividad con JavaScript y estructuras organizadas mediante Flexbox, mejorando la presentación y funcionalidad de una plataforma simulada de entretenimiento en línea.</p>
                     </div>
 
                 </div>
             
 
             </section>
-            
+
+    <footer>
+        <section class="container-fluid colorfooter p-5 mt-5">
+            <div class="row">
+
+                <div class="col-12 align-center">
+                <h1>Acerca de</h1>
+                <hr />
+                <h5>Luisa Fernanda Henao Varelas &copy;</h5>
+                <h5>luisafernandah40@gmail.com</h5>
+                <h5>2025</h5>
+             </div>
+    
+            </div>
+        </section>
+    </footer>
 
             
 
