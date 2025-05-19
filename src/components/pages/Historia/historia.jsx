@@ -1,4 +1,4 @@
-import './historia.css'
+import './Historia.css'
 export function Historia(){
     return(
 
@@ -98,6 +98,7 @@ export function Historia(){
 
                 <div class="col-12 align-center">
                 <h1>Acerca de</h1>
+                <img src="../../../../src/assets/img/logo github.png" alt="" className="img-fluid" />
                 <hr />
                 <h5>Luisa Fernanda Henao Varelas &copy;</h5>
                 <h5>luisafernandah40@gmail.com</h5>

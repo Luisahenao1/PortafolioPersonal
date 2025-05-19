@@ -43,6 +43,23 @@ export function Home() {
           </div>
         </section>
       </div>
+
+      <footer>
+        <section class="container-fluid colorfooter p-5 mt-5">
+            <div class="row">
+
+                <div class="col-12 align-center">
+                <h1>Acerca de</h1>
+                <img src="../../../../src/assets/img/logo github.png" alt="" className="img-fluid" />
+                <hr />
+                <h5>Luisa Fernanda Henao Varelas &copy;</h5>
+                <h5>luisafernandah40@gmail.com</h5>
+                <h5>2025</h5>
+             </div>
+    
+            </div>
+        </section>
+    </footer>
     </>
   );
 }
